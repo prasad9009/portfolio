@@ -104,16 +104,18 @@ try {
 
     // SMTP Settings
     $mail->isSMTP();
-    $mail->Host = "smtp.gmail.com";
+    // Use IPv4 resolution to prevent "Network is unreachable (101)" IPv6 errors on cloud servers
+    $mail->Host = gethostbyname("smtp.gmail.com");
     $mail->SMTPAuth = true;
 
     $mail->Username = $gmailUsername;
     $mail->Password = $appPassword;
 
-    $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
-    $mail->Port = 465;
+    $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
+    $mail->Port = 587;
+    $mail->Timeout = 10;
 
-    // SSL Options (helps on localhost/XAMPP)
+    // SSL Options (helps on localhost/XAMPP and cloud platforms)
     $mail->SMTPOptions = array(
         'ssl' => array(
             'verify_peer' => false,
