@@ -7,7 +7,8 @@
 $siteName = "Prasad kapse";
 $siteRole = "Computer Science Engineering Student";
 $userEmail = "pkapse9009@gmail.com";
-$githubUrl = "https://github.com/prasadkapse";
+$githubUrl = "https://github.com/prasad9009";
+$githubRepoUrl = "https://github.com/prasad9009/portfolio";
 $linkedinUrl = "https://linkedin.com/in/prasadkapse";
 ?>
 <!DOCTYPE html>
@@ -331,11 +332,11 @@ $linkedinUrl = "https://linkedin.com/in/prasadkapse";
               <span>PHP</span><span>MySQL</span><span>JavaScript</span>
             </div>
             <div class="project-links">
-              <a href="#" target="_blank" rel="noopener" class="btn btn-sm btn-outline">GitHub</a>
-              <a href="" target="_blank" rel="noopener" class="btn btn-sm btn-primary">Live Demo</a>
+              <a href="<?php echo $githubUrl; ?>" target="_blank" rel="noopener" class="btn btn-sm btn-outline">GitHub</a>
+              <a href="https://authena.infy.uk" target="_blank" rel="noopener" class="btn btn-sm btn-primary">Live Demo</a>
             </div>
           </div>
-        </article>
+      </article>
 
         <article class="project-card fade-in-up" data-category="php">
           <div class="project-img">
@@ -348,7 +349,7 @@ $linkedinUrl = "https://linkedin.com/in/prasadkapse";
               <span>PHP</span><span>MySQL</span><span>JavaScript</span>
             </div>
             <div class="project-links">
-              <a href="#" target="_blank" rel="noopener" class="btn btn-sm btn-outline">GitHub</a>
+              <a href="<?php echo $githubUrl; ?>" target="_blank" rel="noopener" class="btn btn-sm btn-outline">GitHub</a>
               <a href="#" target="_blank" rel="noopener" class="btn btn-sm btn-primary">Live Demo</a>
             </div>
           </div>
@@ -365,7 +366,7 @@ $linkedinUrl = "https://linkedin.com/in/prasadkapse";
               <span>Java</span><span>room Database</span><span>JDBC</span>
             </div>
             <div class="project-links">
-              <a href="#" target="_blank" rel="noopener" class="btn btn-sm btn-outline">GitHub</a>
+              <a href="<?php echo $githubUrl; ?>" target="_blank" rel="noopener" class="btn btn-sm btn-outline">GitHub</a>
               <a href="#" target="_blank" rel="noopener" class="btn btn-sm btn-primary">Live Demo</a>
             </div>
           </div>
