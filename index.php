@@ -350,7 +350,7 @@ $linkedinUrl = "https://linkedin.com/in/prasadkapse";
             </div>
             <div class="project-links">
               <a href="<?php echo $githubUrl; ?>" target="_blank" rel="noopener" class="btn btn-sm btn-outline">GitHub</a>
-              <a href="#" target="_blank" rel="noopener" class="btn btn-sm btn-primary">Live Demo</a>
+              <a href="https://roommate-finder-7tl2.onrender.com" target="_blank" rel="noopener" class="btn btn-sm btn-primary">Live Demo</a>
             </div>
           </div>
         </article>
