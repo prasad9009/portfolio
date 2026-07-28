@@ -40,7 +40,7 @@ if ($_SERVER["REQUEST_METHOD"] !== "POST") {
 // =======================
 $resendApiKey   = getenv('RESEND_API_KEY') ?: ($_ENV['RESEND_API_KEY'] ?? '');
 $fromEmail      = getenv('FROM_EMAIL') ?: ($_ENV['FROM_EMAIL'] ?? 'onboarding@resend.dev');
-$recipientEmail = getenv('RECIPIENT_EMAIL') ?: ($_ENV['RECIPIENT_EMAIL'] ?? 'pkapse9009@gmail.com');
+$recipientEmail = getenv('RECIPIENT_EMAIL') ?: ($_ENV['RECIPIENT_EMAIL'] ?? 'prasadedu09@gmail.com');
 $siteName       = getenv('SITE_NAME') ?: ($_ENV['SITE_NAME'] ?? 'Prasad Kapse Portfolio');
 
 // =======================
