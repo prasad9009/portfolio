@@ -323,7 +323,7 @@ $linkedinUrl = "https://linkedin.com/in/prasadkapse";
 
       <article class="project-card fade-in-up" data-category="php">
           <div class="project-img">
-            <img src="images/project-placeholder-1.jpg" alt="Project screenshot" onerror="this.parentElement.classList.add('img-fallback')">
+            <img src="images/fake_product.png" alt="Identifying fake products screenshot" onerror="this.parentElement.classList.add('img-fallback')">
           </div>
           <div class="project-body">
             <h3>Identifying fake products through barcode </h3>
@@ -340,7 +340,7 @@ $linkedinUrl = "https://linkedin.com/in/prasadkapse";
 
         <article class="project-card fade-in-up" data-category="php">
           <div class="project-img">
-            <img src="images/project-placeholder-1.jpg" alt="Project screenshot" onerror="this.parentElement.classList.add('img-fallback')">
+            <img src="images/roommate.png" alt="Roommate finder screenshot" onerror="this.parentElement.classList.add('img-fallback')">
           </div>
           <div class="project-body">
             <h3>Roommate finder </h3>
